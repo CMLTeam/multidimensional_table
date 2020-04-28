@@ -76,14 +76,14 @@ export default function SimpleTable() {
                 colSpan={7}
                 style={{ fontWeight: "bold" }}
               >
-                Network Score
+                Network Scores
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             <TableRow>
               <TableCell rowSpan={6} style={{ fontWeight: "bold" }}>
-                Claim stores
+                Claim Scores
               </TableCell>
               <TableCell />
               <TableCell align="right">>0-20</TableCell>
