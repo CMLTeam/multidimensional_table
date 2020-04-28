@@ -53,6 +53,7 @@ export default function SimpleTable() {
   const [lastUpdate, setLastUpdate] = useState<string>(now());
 
   useEffect(() => {
+    // Logic to fetch data every 2 sec
     const int = setInterval(() => {
       setData(
         data.map((row) => row.map((value) => Math.round(Math.random() * 100)))
